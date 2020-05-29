@@ -1,3 +1,6 @@
+# Deno Branch
+
+
 # deno-vue
 
 ## Project setup
@@ -9,16 +12,9 @@ npm install
 ```
 npm run serve
 ```
+### Youtube video for route and api steps
 
-### Compiles and minifies for production
-```
-npm run build
-```
+https://www.youtube.com/watch?v=z9FbIoeYEyU
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Deno api javascript fetch
+https://www.youtube.com/watch?v=pbwFLM6gulQ

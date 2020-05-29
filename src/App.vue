@@ -1,28 +1,44 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="mcontainer">
+    <div class="player-body">
+      <router-view />
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  name: "App",
+  components: {},
+  mounted(){
+    document.body.className = "body-image-one"
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+:root {
+  --primary-color: #e92900;
+}
+
+.player-body {
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  transition: 0.4s;
+  width: 60%;
+  background: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+.body-image-one {
+  background: var(--primary-color) url("./assets/bg.png") no-repeat top center;
+}
+
+@media (max-width: 1024px) {
+  .player-body {
+    width: 97%;
+  }
 }
 </style>
