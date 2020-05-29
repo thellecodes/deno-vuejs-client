@@ -1,9 +1,14 @@
 ## deno-api
+```
 https://github.com/boltdsg/deno-vuejs-client/tree/master/deno-api-server
-
+```
 ## Project setup
 ```
 npm install
+```
+## To get api key
+```
+https://tracker.gg/developers
 ```
 
 ## To run deno server
