@@ -1,12 +1,12 @@
-# Deno Branch
-
-
-# deno-vue
+# deno-api & Vue js
 
 ## Project setup
 ```
 npm install
 ```
+
+## To run deno server
+deno run --allow-net --allow-read --allow-env server.ts
 
 ### Compiles and hot-reloads for development
 ```
