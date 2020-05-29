@@ -1,4 +1,4 @@
-## deno-api & Vue js
+## deno-api
 https://github.com/boltdsg/deno-vuejs-client/tree/master/deno-api-server
 
 ## Project setup
